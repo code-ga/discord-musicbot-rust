@@ -4,6 +4,7 @@ use dotenv::dotenv;
 mod types;
 use types::Data;
 mod commands;
+mod util;
 use poise::serenity_prelude as serenity;
 use songbird::register_from_config;
 
